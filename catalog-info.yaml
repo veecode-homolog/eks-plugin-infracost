@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: eks-plugin-infracost-location
+  description: Location to import all eks-plugin-infracost catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
